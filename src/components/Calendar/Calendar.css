@@ -121,7 +121,13 @@
     background-color: #b4cbe5;
 }
 
+.calendar-page {
+    display: flex;
+    flex-direction: column;
+}
+
 .root-calendar {
+
     width: 325px;
     margin: 50px auto;
 }

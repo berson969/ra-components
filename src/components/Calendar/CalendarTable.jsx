@@ -2,11 +2,12 @@ import React from "react";
 import moment from "moment/moment";
 
 export const getToday = () => {
-    return new Date(2024, 3, 2);
+    return new Date(1969,2,26);
 }
 
 const getWeeks = () => {
     const now = getToday()
+
     moment.locale('ru');
 
     const firstDayOfWeekFirstDayOfMonth = moment(now).startOf('month').startOf('week');
