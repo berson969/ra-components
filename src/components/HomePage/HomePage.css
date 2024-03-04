@@ -1,0 +1,65 @@
+.panel {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-color {
+    margin: 50px auto;
+    background-color: #69d1ff;
+}
+
+.panel-link {
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #69d1ff;
+}
+
+.title {
+    color: white;
+}
+
+.panel__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 80px auto;
+}
+
+.App {
+    text-align: center;
+}
+
+.nav {
+    margin-bottom: 100px;
+}
+
+.App-link {
+    color: #19116c;
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.footer {
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-white {
+    width: 100%;
+    height: auto;
+    display: block;
+}

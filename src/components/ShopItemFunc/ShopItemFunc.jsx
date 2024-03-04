@@ -1,4 +1,5 @@
-import React from 'react'
+import "../../css/ShopItem.css"
+import React from 'react';
 
 export const ShopItemFunc = ({ item }) => {
     const { brand, title, description, descriptionFull, currency, price } = item;

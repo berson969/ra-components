@@ -1,2 +1,2 @@
-export * from "./ShopItemFunc"
+export * from "./ShopItemFunc";
 

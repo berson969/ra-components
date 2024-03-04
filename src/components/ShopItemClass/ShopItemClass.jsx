@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "../../css/ShopItem.css";
 
 export class ShopItemClass extends Component {
     render() {
