@@ -1,10 +1,6 @@
 import React, {Component} from 'react';
 
 export class ShopItemClass extends Component {
-    // eslint-disable-next-line no-useless-constructor
-    constructor(props) {
-        super(props);
-    }
     render() {
         const { brand, title, description, descriptionFull, currency, price } = this.props.item;
 

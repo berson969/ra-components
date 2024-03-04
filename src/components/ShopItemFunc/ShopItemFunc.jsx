@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const ShopItemFunc = (props) => {
-    const { brand, title, description, descriptionFull, currency, price } = props.item;
+export const ShopItemFunc = ({ item }) => {
+    const { brand, title, description, descriptionFull, currency, price } = item;
 
     return (
         <div className="container">

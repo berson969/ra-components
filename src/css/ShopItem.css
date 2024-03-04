@@ -77,7 +77,7 @@ h1 {
 }
 
 h3 {
-    color: #666;
+    color: #19116c;
     font-size: 19px;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -168,8 +168,11 @@ h3 {
     margin-top:5px;
     position:relative;
 }
+
 a {
     text-decoration:none;
+    color: #19116c;
+    font-size: 20px;
 }
 a:hover {
     text-decoration:underline;
@@ -352,6 +355,7 @@ button:hover {
         font-size:2rem;
     }
     h3,h2 {
+        color: #19116c;
         font-size:1rem;
     }
     .container {

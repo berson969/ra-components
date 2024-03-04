@@ -27,9 +27,11 @@ function App() {
 
 function HomePage() {
     return (
-        <div className="top-panel">
+        <div className="panel">
+            <img src="https://pro-kursy.com/wp-content/uploads/2023/04/netologiya.jpg" className="logo-1" alt="netology_color.png"/>
+            <div className="top-panel">
             <div className="top-panel__container">
-                <img src="https://netology-code.github.io/mq-homeworks/media-features/mobile-menu/img/logo.svg" className="logo" alt="Логотип компании Нетология"/>
+
                 <h1 className="title">Компоненты</h1>
             </div>
 
@@ -40,11 +42,15 @@ function HomePage() {
                     <ul>
                         <li className="App-link"><Link to="/func">функциональный компонент</Link></li>
                         <li className="App-link"><Link to="/class">class-based компонент</Link></li>
-                        <li className="App-link"><Link to="/calendar">Календарь</Link></li>
+                        <li className="App-link"><Link to="/calendar">календарь</Link></li>
                     </ul>
                 </nav>
                 <Outlet />
             </div>
+            <div className="top-panel__footer">
+                <img src="https://netology-code.github.io/mq-homeworks/media-features/mobile-menu/img/logo.svg" className="logo" alt="Логотип компании Нетология"/>
+            </div>
+        </div>
         </div>
     )
 }
